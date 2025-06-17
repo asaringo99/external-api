@@ -1,0 +1,9 @@
+{
+  "$schema": "https://typedoc.org/schema.json",
+  "entryPoints": [
+    "./app/**/*.ts"
+  ],
+  "out": "docs",
+  "name": "自動生成APIドキュメント",
+  "readme": "none"
+}

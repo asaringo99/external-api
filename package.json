@@ -1,0 +1,23 @@
+{
+  "name": "external-api",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "generate": "bun codegen/cli.ts",
+    "docs": "typedoc",
+    "docs:open": "bun run docs && open ./docs/index.html"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/node": "^24.0.3",
+    "typedoc": "^0.28.5"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "commander": "^14.0.0",
+    "fast-xml-parser": "^5.2.5",
+    "typia": "^9.3.1"
+  }
+}

@@ -1,0 +1,8 @@
+<schema>
+	<!-- 宿泊施設情報 -->
+	<table name="temairazu.hotel" fileName="hotel.tsv" null="" encoding="utf8" comment="宿泊施設情報">
+		<column import="1" type="varchar(255)" comment="手間いらずホテルコード" pkey="1">user_id</column>
+		<column import="1" type="varchar(255)" comment="施設名">hotel_name</column>
+		<column import="1" type="varchar(65535)" comment="キャッチコピー">catch_copy</column>
+	</table>
+</schema>
